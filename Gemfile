@@ -76,3 +76,8 @@ gem 'pry-rails'
 group :production do
   gem 'pg'
 end
+
+group :development do
+  gem 'capistrano', require: false
+  gem 'capistrano-rails', require: false
+end
